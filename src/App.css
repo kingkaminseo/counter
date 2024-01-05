@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+
+  background-color: rgb(20, 19, 49);
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+body {
+  background: #8758ff;
 }
 
 .App-logo {
@@ -35,4 +46,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+button {
+  background-color: #8758ff;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 89px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+input {
+  background-color: #282c3494;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 15px 15px;
+  color: white;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
 }
